@@ -5,9 +5,21 @@ s*{
 }
 body{
     background: lightgray;
+    margin: 0;
+    padding: 0;
+}
+.top {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: white;
+    text-align: center;
+
 }
 #header {
     width: 600px;
+    background: white;
     text-align: left;
     float: left;
 }
@@ -18,6 +30,8 @@ body{
     align-items: center; 
     justify-content: center;
 }
+
+
 .feed{
     width: 600px;
     height: 500px;
